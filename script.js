@@ -162,11 +162,11 @@ function submitform(){
 }
 
 function reset(){
-    document.getElementById("usernamedisplay").innerHTML = "";
-    document.getElementById("pnamedisplay").innerHTML = "";
-    document.getElementById("passworddisplay").innerHTML = ""
-    document.getElementById("emaildisplay").innerHTML = "";
-    document.getElementById("addressdisplay").innerHTML = "";
-    document.getElementById("interestsdisplay").innerHTML = "";  
-    document.getElementById("genderdisplay").innerHTML = "";
+    document.getElementById("usernamedisplay").innerHTML = "Name: ";
+    document.getElementById("pnamedisplay").innerHTML = "Preferred Name: ";
+    document.getElementById("passworddisplay").innerHTML = "Password: ";
+    document.getElementById("emaildisplay").innerHTML = "Email: ";
+    document.getElementById("addressdisplay").innerHTML = "Address: ";
+    document.getElementById("interestsdisplay").innerHTML = "Interests: ";  
+    document.getElementById("genderdisplay").innerHTML = "Gender: ";
 }
