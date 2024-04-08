@@ -1,5 +1,5 @@
 #form{
-    position: fixed;
+    position: absolute;
     left: 30%;
 }
 
@@ -29,7 +29,7 @@ legend {
 }
 
 #display-box {
-    position: fixed;
+    position: absolute;
     left: 32.5%;
     bottom: 70%;
     width: 35vw;
