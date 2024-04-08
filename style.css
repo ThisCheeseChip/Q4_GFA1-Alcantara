@@ -1,0 +1,49 @@
+body{
+    display: flex;
+}
+
+#form{
+    margin-left: 14vw;
+    margin-top: 5vh;
+    display: flex;
+}
+
+#fieldset {
+    width: 30vw;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.input {
+    width: 20vw;
+}
+
+#interests {
+    resize: none;
+}
+
+.error {
+    font-size: 10.5px;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+#display-box {
+    width: 35vw;
+    border: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    margin-top: 6.175vh;
+    margin-left: 2vw;
+    font-size: 14px;
+}
+
+.output{
+    color: red;
+}
