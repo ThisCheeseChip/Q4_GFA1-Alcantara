@@ -1,9 +1,4 @@
-body{
-    display: flex;
-}
-
 #form{
-    margin-left: 14vw;
     margin-top: 5vh;
     display: flex;
 }
@@ -40,7 +35,6 @@ legend {
     padding-left: 15px;
 
     margin-top: 6.175vh;
-    margin-left: 2vw;
     font-size: 14px;
 }
 
