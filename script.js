@@ -154,19 +154,9 @@ function submitform(){
     document.getElementById("usernamedisplay").innerHTML = "Name: " + username;
     document.getElementById("pnamedisplay").innerHTML = "Preferred Name: " + pname;
     document.getElementById("passworddisplay").innerHTML = "Password: " + password;
-    document.getElementById("emaildisplay").innerHTML = "Email:" + email;
+    document.getElementById("emaildisplay").innerHTML = "Email: " + email;
     document.getElementById("addressdisplay").innerHTML = "Address: " + address;
     document.getElementById("interestsdisplay").innerHTML = "Inerests: " + interests;  
     document.getElementById("genderdisplay").innerHTML = "Gender: " + output;
     return (false);
-}
-
-function reset(){
-    document.getElementById("usernamedisplay").innerHTML = "Name: ";
-    document.getElementById("pnamedisplay").innerHTML = "Preferred Name: ";
-    document.getElementById("passworddisplay").innerHTML = "Password: ";
-    document.getElementById("emaildisplay").innerHTML = "Email: ";
-    document.getElementById("addressdisplay").innerHTML = "Address: ";
-    document.getElementById("interestsdisplay").innerHTML = "Interests: ";  
-    document.getElementById("genderdisplay").innerHTML = "Gender: ";
 }
