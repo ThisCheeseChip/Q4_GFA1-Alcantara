@@ -1,6 +1,5 @@
 #form{
-    position: absolute;
-    left: 30%;
+    margin-top: 1.5vh;
 }
 
 #fieldset {
@@ -29,15 +28,12 @@ legend {
 }
 
 #display-box {
-    position: absolute;
-    left: 32.5%;
-    bottom: 70%;
     width: 35vw;
     border: 1px solid black;
     padding-right: 15px;
     padding-left: 15px;
 
-    margin-top: 6.175vh;
+    margin-top: 2.175vh;
     font-size: 14px;
 }
 
