@@ -151,13 +151,13 @@ function submitform(){
     interests = document.getElementById("interests").value;
 
 
-    document.getElementById("usernamedisplay").innerHTML = username;
-    document.getElementById("pnamedisplay").innerHTML = pname;
-    document.getElementById("passworddisplay").innerHTML = password;
-    document.getElementById("emaildisplay").innerHTML = email;
-    document.getElementById("addressdisplay").innerHTML = address;
-    document.getElementById("interestsdisplay").innerHTML = interests;  
-    document.getElementById("genderdisplay").innerHTML = output;
+    document.getElementById("usernamedisplay").innerHTML = "Name: " + username;
+    document.getElementById("pnamedisplay").innerHTML = "Preferred Name: " + pname;
+    document.getElementById("passworddisplay").innerHTML = "Password: " + password;
+    document.getElementById("emaildisplay").innerHTML = "Email:" + email;
+    document.getElementById("addressdisplay").innerHTML = "Address: " + address;
+    document.getElementById("interestsdisplay").innerHTML = "Inerests: " + interests;  
+    document.getElementById("genderdisplay").innerHTML = "Gender: " + output;
     return (false);
 }
 
