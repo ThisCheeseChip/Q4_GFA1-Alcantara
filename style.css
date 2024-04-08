@@ -34,8 +34,7 @@ legend {
 #display-box {
     width: 35vw;
     border: 1px solid black;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 5px;
 
     margin-top: 2.175vh;
     font-size: 14px;
