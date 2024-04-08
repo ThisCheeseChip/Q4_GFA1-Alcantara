@@ -7,56 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body onclick="checkValues()"> 
-    <form id="form" onsubmit="return submitform()">
-        <fieldset id="fieldset" form="form">
-            <legend>Form</legend>
+    <div class="page">
+        <form id="form" onsubmit="return submitform()">
+            <fieldset id="fieldset" form="form">
+                <legend>Form</legend>
 
-            <label for="username" id="usernamelabel">Name:</label> <br>
-            <input type="text" id="username" class="input" onblur="checkName()" autocomplete="true">
-            <p id="usernameerror" class="error"></p>  <br>
+                <label for="username" id="usernamelabel">Name:</label> <br>
+                <input type="text" id="username" class="input" onblur="checkName()" autocomplete="true">
+                <p id="usernameerror" class="error"></p>  <br>
 
-            <label for="pname" id="pnamelabel">Preferred Name:</label> <br>
-            <input type="text" id="pname" class="input" onblur="checkpName()" autocomplete="true"> 
-            <p id="pnameerror" class="error"></p> <br>
+                <label for="pname" id="pnamelabel">Preferred Name:</label> <br>
+                <input type="text" id="pname" class="input" onblur="checkpName()" autocomplete="true"> 
+                <p id="pnameerror" class="error"></p> <br>
 
-            <label for="password" id="passwordlabel">Password:</label> <br>
-            <input type="password" id="password" class="input" onblur="checkPassword()" autocomplete="true"> 
-            <p id="passworderror" class="error"></p>  <br>
+                <label for="password" id="passwordlabel">Password:</label> <br>
+                <input type="password" id="password" class="input" onblur="checkPassword()" autocomplete="true"> 
+                <p id="passworderror" class="error"></p>  <br>
 
-            <label for="email" id="emaillabel">Email:</label> <br>
-            <input type="email" id="email" class="input" onblur="checkEmail()" autocomplete="true"> 
-            <p id="emailerror" class="error"></p>  <br>
+                <label for="email" id="emaillabel">Email:</label> <br>
+                <input type="email" id="email" class="input" onblur="checkEmail()" autocomplete="true"> 
+                <p id="emailerror" class="error"></p>  <br>
 
-            <label for="address" id="addresslabel">Address:</label> <br>
-            <input type="text" id="address" class="input" onblur="checkAddress()" autocomplete="true"> 
-            <p id="addresserror" class="error"></p>  <br>
+                <label for="address" id="addresslabel">Address:</label> <br>
+                <input type="text" id="address" class="input" onblur="checkAddress()" autocomplete="true"> 
+                <p id="addresserror" class="error"></p>  <br>
 
-            <label for="interests" id="interestslabel">Your Interests:</label> <br>
-            <textarea cols="50" rows="3" id="interests" class="input" onblur="checkInterests()"></textarea> 
-            <p id="interestserror" class="error"></p>  <br>
+                <label for="interests" id="interestslabel">Your Interests:</label> <br>
+                <textarea cols="50" rows="3" id="interests" class="input" onblur="checkInterests()"></textarea> 
+                <p id="interestserror" class="error"></p>  <br>
             
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="male">Male</label> <br>
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="female">Female</label> <br>
-            <input type="radio" id="no" name="gender" value="Prefer not to say">
-            <label for="no">Prefer not to say.</label> <br> <br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label> <br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label> <br>
+                <input type="radio" id="no" name="gender" value="Prefer not to say">
+                <label for="no">Prefer not to say.</label> <br> <br>
 
-            <button type="submit" id="submit" disabled="true">Submit</button>
-            <button type="reset" onclick="reset()">Reset</button>
-        </fieldset>
-    </form>
+                <button type="submit" id="submit" disabled="true">Submit</button>
+                <button type="reset" onclick="reset()">Reset</button>
+            </fieldset>
+        </form>
 
-    <div id="display-box">
-        <div class="output" id="usernamedisplay"> Name: </div>
-        <div class="output" id="pnamedisplay"> Preferred Name: </div>
-        <div class="output" id="passworddisplay"> Password: </div>
-        <div class="output" id="emaildisplay"> Email: </div>
-        <div class="output" id="addressdisplay"> Address: </div>
-        <div class="output" id="interestsdisplay"> Interests: </div>
-        <div class="output" id="genderdisplay"> Gender: </div>
-    </div>    
-    
+        <div id="display-box">
+            <div class="output" id="usernamedisplay"> Name: </div>
+            <div class="output" id="pnamedisplay"> Preferred Name: </div>
+            <div class="output" id="passworddisplay"> Password: </div>
+            <div class="output" id="emaildisplay"> Email: </div>
+            <div class="output" id="addressdisplay"> Address: </div>
+            <div class="output" id="interestsdisplay"> Interests: </div>
+            <div class="output" id="genderdisplay"> Gender: </div>
+        </div>    
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
